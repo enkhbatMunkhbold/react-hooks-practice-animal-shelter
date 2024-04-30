@@ -7,7 +7,7 @@
       "age": 4,
       "weight": 1,
       "name": "Trident",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "2c902312-dfa3-446f-8b4b-5e115170d807",
@@ -16,7 +16,7 @@
       "age": 3,
       "weight": 1,
       "name": "Teddy",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "6057de4f-6725-4b9f-a0b1-1f3bd3ad04a6",
@@ -43,7 +43,7 @@
       "age": 6,
       "weight": 3,
       "name": "Silent",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "ffc4663d-71f3-4ad9-8242-973756c8b8b1",
@@ -61,7 +61,7 @@
       "age": 4,
       "weight": 5,
       "name": "Hemingway",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "24064151-0d34-4b9e-ba29-d4289bda8fe6",
@@ -70,7 +70,7 @@
       "age": 9,
       "weight": 4,
       "name": "Radar",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "18854fc7-00c9-4d6a-b3c6-bfd9a06ce1e7",
@@ -88,7 +88,7 @@
       "age": 5,
       "weight": 6,
       "name": "Olson",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "5ed05348-77ed-4f50-82fc-a004e13f496f",
@@ -124,7 +124,7 @@
       "age": 6,
       "weight": 5,
       "name": "Sprout",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "5f0ca9bc-5454-4ff5-a7d7-2c8d0a0f1583",
@@ -214,7 +214,7 @@
       "age": 5,
       "weight": 1,
       "name": "Radar",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "a7ea570c-275f-4a4d-aa71-fdd1f72a2c02",
