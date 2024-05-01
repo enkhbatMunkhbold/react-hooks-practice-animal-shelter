@@ -43,7 +43,7 @@
       "age": 6,
       "weight": 3,
       "name": "Silent",
-      "isAdopted": true
+      "isAdopted": false
     },
     {
       "id": "ffc4663d-71f3-4ad9-8242-973756c8b8b1",
@@ -61,7 +61,7 @@
       "age": 4,
       "weight": 5,
       "name": "Hemingway",
-      "isAdopted": true
+      "isAdopted": false
     },
     {
       "id": "24064151-0d34-4b9e-ba29-d4289bda8fe6",
@@ -70,7 +70,7 @@
       "age": 9,
       "weight": 4,
       "name": "Radar",
-      "isAdopted": true
+      "isAdopted": false
     },
     {
       "id": "18854fc7-00c9-4d6a-b3c6-bfd9a06ce1e7",
@@ -88,7 +88,7 @@
       "age": 5,
       "weight": 6,
       "name": "Olson",
-      "isAdopted": true
+      "isAdopted": false
     },
     {
       "id": "5ed05348-77ed-4f50-82fc-a004e13f496f",
@@ -124,7 +124,7 @@
       "age": 6,
       "weight": 5,
       "name": "Sprout",
-      "isAdopted": true
+      "isAdopted": false
     },
     {
       "id": "5f0ca9bc-5454-4ff5-a7d7-2c8d0a0f1583",
@@ -160,7 +160,7 @@
       "age": 6,
       "weight": 5,
       "name": "Ivy",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "103bf0d9-00a3-41d4-b980-a2f3518a6b15",
@@ -214,7 +214,7 @@
       "age": 5,
       "weight": 1,
       "name": "Radar",
-      "isAdopted": true
+      "isAdopted": false
     },
     {
       "id": "a7ea570c-275f-4a4d-aa71-fdd1f72a2c02",
@@ -223,7 +223,7 @@
       "age": 10,
       "weight": 5,
       "name": "Babs",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "77a12fc4-887f-4940-9670-8d216e6b653d",
@@ -304,7 +304,7 @@
       "age": 4,
       "weight": 4,
       "name": "Flurry",
-      "isAdopted": false
+      "isAdopted": true
     },
     {
       "id": "6c8e937e-3104-4ceb-a3c7-8cdd6ee90082",
@@ -313,7 +313,7 @@
       "age": 3,
       "weight": 2,
       "name": "Hennessy",
-      "isAdopted": false
+      "isAdopted": true
     }
   ]
 }

@@ -19,9 +19,20 @@ function App() {
     .then(animals => setPets(animals))
   }
 
-  function handleAdoptPet(adoptedPetId) {
-    const updatedPets = pets.map(pet => pet.id === adoptedPetId ? {...pet, isAdopted: true} : pet)    
-    setPets(updatedPets)
+  function handleAdoptPet(id) {
+    fetch(`http://localhost:3001/pets/${id}`, {
+      method: 'PATCH', 
+      headers: {
+        'Content-Type': 'application/json'
+      }, 
+      body: JSON.stringify({isAdopted: true})
+    })
+    .then(res => res.json())
+    .then(animalObj => {
+      const updatedPets = pets.map(pet => pet.id === animalObj.id ? {...pet, isAdopted: true} : pet)    
+      setPets(updatedPets)
+    })
+    
   }
 
   return (
