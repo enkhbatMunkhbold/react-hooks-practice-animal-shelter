@@ -2,30 +2,34 @@ import React from "react";
 
 function Pet({pet, onAdoptPet}) {
 
+  const { id, name, gender, type, age, weight, isAdopted } = pet
+
   function handleAdoptedClick() {
-    onAdoptPet(pet.id)
+    onAdoptPet(id)
   }
 
-  const petGender = pet.gender === 'male' ? '♂' : '♀' 
+  const petGender = gender === 'male' ? '♂' : '♀' 
 
   return (
     <div className="card" data-testid="pet">
       <div className="content">
         <span className="header">          
-          {pet.name} 
+          {name} 
         </span>
         <div className="meta">
-          <span className="date"  style={{paddingRight: '8px'}}>{pet.type}</span>
+          <span className="date"  style={{paddingRight: '8px'}}>{type}</span>
           {petGender}
         </div>
         <div className="description">
-          <p>Age: {pet.age}</p>
-          <p>Weight: {pet.weight}</p>
+          <p>Age: {age}</p>
+          <p>Weight: {weight}</p>
         </div>
       </div>
       <div className="extra content" >
-        <button className={pet.isAdopted ? "ui primary button" : "ui disabled button" }>Already adopted</button>
-        <button className={pet.isAdopted ? "ui disabled button" :  "ui primary button"} onClick={handleAdoptedClick}>Adopt pet</button>
+       { 
+          isAdopted  ? <button className= "ui disabled button">Already adopted</button> :
+          <button className= "ui primary button" onClick={handleAdoptedClick}>Adopt pet</button>
+       }
       </div>
     </div>
   );

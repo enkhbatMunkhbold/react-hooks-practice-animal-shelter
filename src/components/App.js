@@ -27,12 +27,8 @@ function App() {
       }, 
       body: JSON.stringify({isAdopted: true})
     })
-    .then(res => res.json())
-    .then(animalObj => {
-      const updatedPets = pets.map(pet => pet.id === animalObj.id ? {...pet, isAdopted: true} : pet)    
-      setPets(updatedPets)
-    })
-    
+    const updatedPets = pets.map(pet => pet.id === id ? {...pet, isAdopted: true} : pet)    
+    setPets(updatedPets)
   }
 
   return (
